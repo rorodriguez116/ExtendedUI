@@ -86,7 +86,7 @@ public struct PaginatedView<Content: View>: View {
     
     private var screenSize: CGSize {
         #if os(iOS)
-        return UIScreen.main.size
+        return UIScreen.main.bounds.size
         #else
         return CGSize(width: 1024, height: 720)
         #endif

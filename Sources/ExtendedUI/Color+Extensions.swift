@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 
 #if os(iOS)
-import UIColor
+import UIKit.UIColor
 #endif
 
 public extension Color {
